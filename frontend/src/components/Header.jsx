@@ -3,13 +3,17 @@ import logo from "../assets/images/logo.png"
 
 function Header(){
     return(
-        <Header>
+        <header className="flex h-32 bg-black w-full">
             <img src={logo} 
             alt="web page logo" 
-            className="w-28 h-auto rounded-1/2"
+            className="w-32 h-32 "
             />
+            <div className="container m-6 max-w-64">
+            < h1 className="text-white"> Autonomous Environmental Reasoning & Intelligence System</h1>
+            </div>
 
-        </Header>
+
+        </header>
     )
 }
 

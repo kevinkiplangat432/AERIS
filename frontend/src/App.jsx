@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import Header from "./components/Header";
+import AerisTest from "./components/Aeristest";
 
 function App(){
   const [message, setmessage] = useState("loading...")
@@ -14,6 +15,7 @@ function App(){
     <>
     <Header/>
     <h1>{message}</h1>
+    <AerisTest/>
     </>
   )
 };
